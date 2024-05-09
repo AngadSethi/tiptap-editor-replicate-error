@@ -10,8 +10,4 @@ class CreateArticle extends CreateRecord
 {
     protected static string $resource = ArticleResource::class;
 
-    protected function mutateFormDataBeforeCreate(array $data): array
-    {
-        dd($data);
-    }
 }
